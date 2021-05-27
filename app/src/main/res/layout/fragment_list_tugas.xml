@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListTugas"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/DetailTextView"
+        android:layout_width="410dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:height="38dp"
+        android:fontFamily="@font/rowdies"
+        android:text="@string/list_tugas"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ListTugas"
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@color/Main_Color"
+        android:clickable="true"
+        android:focusable="true"
+        tools:context="example.javatpoint.com.recyclerviewlist.MainActivity"
+        tools:itemCount="4"
+
+        />
+
+</FrameLayout>

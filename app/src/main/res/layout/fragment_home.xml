@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="@drawable/background"
+    >
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/submit"
+        app:backgroundTint="@color/white"
+        android:src="@drawable/add" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:text="@string/adolfo"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="201dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/Main_Color"
+        />
+
+    <ImageView
+        android:id="@+id/fotoProfile"
+        android:layout_width="410dp"
+        android:layout_height="158dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/Main_Color"
+        android:contentDescription="@string/ProfileImage" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ListHome"
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:background="@color/Main_Color"
+
+        android:clickable="true"
+        android:focusable="true"
+        tools:context="example.javatpoint.com.recyclerviewlist.MainActivity"
+        tools:itemCount="4" />
+
+
+
+</RelativeLayout>

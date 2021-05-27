@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:background="@drawable/background">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/DetailTextView"
+            android:layout_width="410dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="50dp"
+            android:height="38dp"
+            android:fontFamily="@font/rowdies"
+            android:text="@string/gas_nugas"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_tugas"
+            android:fontFamily="@font/rowdies"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="150dp"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:background="@color/white"
+            android:fontFamily="@font/rowdies"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tanggal_pengerjaan"
+            android:fontFamily="@font/rowdies"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="250dp"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/Kolom_Tanggal"
+            android:text="@string/tanggal_pengerjaan"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp"
+            android:background="@color/white"
+            android:fontFamily="@font/rowdies"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deadline"
+            android:fontFamily="@font/rowdies"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="350dp"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/Kolom_Deadline"
+            android:text="@string/deadline"
+            android:layout_width="329dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="400dp"
+            android:background="@color/white"
+            android:fontFamily="@font/rowdies"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catatan"
+            android:fontFamily="@font/rowdies"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="450dp"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/Kolom_Catatan"
+            android:text="@string/catatan"
+            android:layout_width="329dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="500dp"
+            android:background="@color/white"
+            android:fontFamily="@font/rowdies"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:background="@color/Main_Color"
+            android:fontFamily="@font/rowdies"
+            android:text="Hapus"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
